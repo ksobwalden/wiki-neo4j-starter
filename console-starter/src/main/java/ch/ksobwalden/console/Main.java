@@ -1,4 +1,4 @@
-package ch.ksobwalden;
+package ch.ksobwalden.console;
 
 import org.neo4j.driver.Query;
 
