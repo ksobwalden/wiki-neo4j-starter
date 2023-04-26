@@ -1,4 +1,4 @@
-package ch.ksobwalden.javafx;
+package ch.ksobwalden.webview;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +10,9 @@ import java.io.IOException;
 public class MainApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("javafx-starter-main-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 360, 400);
-        stage.setTitle("JavaFx Starter");
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("javafx-webview-starter-main-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 720, 510);
+        stage.setTitle("JavaFx Webview");
         stage.setScene(scene);
         stage.show();
     }
