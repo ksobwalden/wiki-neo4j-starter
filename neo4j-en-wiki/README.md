@@ -1,6 +1,11 @@
 # Neo4j en-wiki
 
-## Setup & Rest for Windows
+## Allow Powershell on Windows (Open Powershell in administrator mode)
+```sh
+Set-ExecutionPolicy unrestricted
+```
+
+## Setup & Reset for Windows
 
 ```shell
 .\setup.ps1
